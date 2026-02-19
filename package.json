@@ -2,37 +2,37 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "ramadan",
   "title": "Ramadan",
-  "description": "Ramadan countdown, Suhoor & Iftar times, and fasting schedule based on your location",
+  "description": "Ramadan schedule, Suhoor & Iftar times based on your location",
   "icon": "extension-icon.png",
-  "author": "rayyan",
+  "author": "iamrayyaann",
   "categories": ["Other"],
   "license": "MIT",
   "version": "1.0.0",
   "commands": [
     {
       "name": "suhoor",
-      "title": "Suhoor",
+      "title": "Suhoor Time",
       "subtitle": "Ramadan",
       "description": "Today's Suhoor time",
       "mode": "view"
     },
     {
       "name": "iftar",
-      "title": "Iftar",
+      "title": "Iftar Time",
       "subtitle": "Ramadan",
       "description": "Today's Iftar time",
       "mode": "view"
     },
     {
       "name": "calendar",
-      "title": "Schedule",
+      "title": "Ramadan Schedule",
       "subtitle": "Ramadan",
       "description": "Full Ramadan schedule",
       "mode": "view"
     },
     {
       "name": "menu-bar",
-      "title": "Countdown",
+      "title": "Menu Bar Countdown",
       "subtitle": "Ramadan",
       "description": "Fasting countdown in menu bar",
       "mode": "menu-bar",
