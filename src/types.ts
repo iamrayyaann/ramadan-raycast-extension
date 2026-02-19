@@ -111,6 +111,7 @@ export interface RamadanDay {
   suhoor: string;
   iftar: string;
   isToday: boolean;
+  isPast: boolean;
 }
 
 export interface RamadanInfo {

@@ -120,13 +120,17 @@ export default function CalendarCommand() {
             year: "numeric",
           });
 
+          const isToday = dateKey === todayStr;
+          const isPast = !isToday && gregDate < today;
+
           ramadanDays.push({
             dayNumber: i + 1,
             gregorianDate: gregDateStr,
             hijriDate: `${i + 1} Ramadan ${year}`,
             suhoor: getSuhoorTime(timings.Fajr),
             iftar: getIftarTime(timings.Maghrib),
-            isToday: dateKey === todayStr,
+            isToday,
+            isPast,
           });
         }
 
@@ -172,8 +176,8 @@ export default function CalendarCommand() {
         <List.Item
           key={day.dayNumber}
           icon={{
-            source: day.isToday ? Icon.Star : Icon.Circle,
-            tintColor: day.isToday ? Color.Yellow : Color.SecondaryText,
+            source: day.isToday ? Icon.Star : day.isPast ? Icon.Checkmark : Icon.Circle,
+            tintColor: day.isToday ? Color.Yellow : day.isPast ? Color.Green : Color.SecondaryText,
           }}
           title={`${day.dayNumber} Ramadan`}
           subtitle={day.gregorianDate}
