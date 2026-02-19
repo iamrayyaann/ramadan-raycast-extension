@@ -5,7 +5,7 @@
   "description": "Ramadan schedule, Suhoor & Iftar times based on your location",
   "icon": "extension-icon.png",
   "author": "iamrayyaann",
-  "categories": ["Other"],
+  "categories": ["Productivity"],
   "license": "MIT",
   "version": "1.0.0",
   "commands": [
@@ -15,8 +15,7 @@
       "subtitle": "Ramadan",
       "description": "Today's Suhoor time",
       "mode": "view",
-      "icon": "suhoor-icon.png",
-      "categories": ["Time"]
+      "icon": "suhoor-icon.png"
     },
     {
       "name": "iftar",
@@ -24,8 +23,7 @@
       "subtitle": "Ramadan",
       "description": "Today's Iftar time",
       "mode": "view",
-      "icon": "iftar-icon.png",
-      "categories": ["Time"]
+      "icon": "iftar-icon.png"
     },
     {
       "name": "calendar",
@@ -33,8 +31,7 @@
       "subtitle": "Ramadan",
       "description": "Full Ramadan schedule",
       "mode": "view",
-      "icon": "schedule-icon.png",
-      "categories": ["Calendar"]
+      "icon": "schedule-icon.png"
     },
     {
       "name": "menu-bar",
@@ -43,8 +40,7 @@
       "description": "Fasting countdown in menu bar",
       "mode": "menu-bar",
       "interval": "10m",
-      "icon": "menubar-icon.png",
-      "categories": ["Widgets"]
+      "icon": "menubar-icon.png"
     }
   ],
   "preferences": [
