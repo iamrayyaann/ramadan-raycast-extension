@@ -14,21 +14,24 @@
       "title": "Suhoor Time",
       "subtitle": "Ramadan",
       "description": "Today's Suhoor time",
-      "mode": "view"
+      "mode": "view",
+      "icon": "suhoor-icon.png"
     },
     {
       "name": "iftar",
       "title": "Iftar Time",
       "subtitle": "Ramadan",
       "description": "Today's Iftar time",
-      "mode": "view"
+      "mode": "view",
+      "icon": "iftar-icon.png"
     },
     {
       "name": "calendar",
       "title": "Ramadan Schedule",
       "subtitle": "Ramadan",
       "description": "Full Ramadan schedule",
-      "mode": "view"
+      "mode": "view",
+      "icon": "schedule-icon.png"
     },
     {
       "name": "menu-bar",
@@ -36,7 +39,8 @@
       "subtitle": "Ramadan",
       "description": "Fasting countdown in menu bar",
       "mode": "menu-bar",
-      "interval": "10m"
+      "interval": "10m",
+      "icon": "menubar-icon.png"
     }
   ],
   "preferences": [
