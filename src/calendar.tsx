@@ -176,8 +176,16 @@ export default function CalendarCommand() {
         <List.Item
           key={day.dayNumber}
           icon={{
-            source: day.isToday ? Icon.Star : day.isPast ? Icon.Checkmark : Icon.Circle,
-            tintColor: day.isToday ? Color.Yellow : day.isPast ? Color.Green : Color.SecondaryText,
+            source: day.isToday
+              ? Icon.Star
+              : day.isPast
+                ? Icon.Checkmark
+                : Icon.Circle,
+            tintColor: day.isToday
+              ? Color.Yellow
+              : day.isPast
+                ? Color.Green
+                : Color.SecondaryText,
           }}
           title={`${day.dayNumber} Ramadan`}
           subtitle={day.gregorianDate}
